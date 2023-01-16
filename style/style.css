@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFF8F1;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1330px;
+}
+
+.card {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card--text {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 24px;
+    letter-spacing: 0.016em;
+
+}
+
+.card p {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #807D7D;
+    letter-spacing: 0.016em;
+
+
+}
+
+.flex--box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 115px;
+}
+
+.card--elemnt {
+    width: 430px;
+    height: 400px;
+    border-radius: 12px;
+    padding: 55px;
+    padding-top: 80px;
+}
+
+.card--elemnt:hover {
+    background-color: linear-gradient(156.79deg, rgba(255, 248, 241, 0.45) 0.44%, #FFF8F2 61.76%, #E0FBE5 134.86%);
+    box-shadow: 25px 25px 100px rgba(166, 161, 157, 0.2);
+}
+
+.card--elemnt h2 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.016em;
+    margin-bottom: 24px;
+
+}
+
+.card--elemnt p {
+
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.016em;
+
+}
+
+.section{
+    /* padding-top: 220px; */
+}
+
+.section--ul {
+    list-style: none;
+}
+.section--ul--list :nth-child(1){
+    width: 590px;
+    margin-left: auto;
+}
+.section--ul :nth-child(2){
+    width: 590px;   
+}
+
+.section--ul--list-text {
+    width: 590px;
+}
+
+.section--ul--list{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.section--ul--list:nth-child(2){
+    margin-top:200px ;
+}
+
+.section--ul--list:nth-child(1)::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 598px;
+    height: 598px;
+    background-image: url("../images/Group\ 107.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.section--ul--list:nth-child(1)::after{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 598px;
+    height: 598px;
+    background-image: url("../images/Group\ 103.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.section--ul--list-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.016em;
+    margin-bottom: 24px;
+
+
+}
+
+.section--ul--list-text p {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.016em;
+    text-align: left;
+    margin-bottom: 60px;
+    color:#807D7D;
+}
+
+.section--button {
+    width: 315px;
+    height: 70px;
+    background-color: #FFF8F1;
+    color: #F05830;
+    border: 2px solid #F05830;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+
+}
+.section--ul--list:nth-child(2)::before{
+    position: absolute;
+    top: 0;
+    left: 700px ;
+    width: 598px;
+    height: 598px;
+    background-image: url("../images/Group\ 108.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.section--ul--list:nth-child(2)::after{
+    position: absolute;
+    top: -90px;
+    left: 700px;
+    width: 598px;
+    height: 598px;
+    background-image: url("../images/Group\ 104.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
